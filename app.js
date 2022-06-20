@@ -5,6 +5,7 @@ const host = 'localhost';
 const port = 8000;
 
 
+let indexFile;
 const requestListener = function (req, res) {
     res.setHeader("Content-Type", "text/html");
     res.writeHead(200);
