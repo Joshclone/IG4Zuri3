@@ -1,5 +1,6 @@
-const http = require("http");
 
+const http = require("http");
+const fs = require('fs').promises;
 const host = 'localhost';
 const port = 8000;
 
